@@ -1,0 +1,67 @@
+$line-height: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.nav-link {
+  &:hover {
+  color: red !important;    
+  background-color: white;
+  font-weight: bold; 
+}
+}
+#login {
+  color: white;
+  &:hover {
+    background-color: white;
+    color: red;
+    border: $line-height solid red;
+  }
+}
+#chrome {
+  &:hover {
+    background-color: white;
+    color: blue;
+    border: $line-height solid blue;
+  }
+}
+#firefox {
+  color: grey;
+   &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+  }
+}
+#addOpera, #addChrome, #addFirefox, #moreinfo, #moreinfo2 {
+  &:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+}
+#question1, #question2, #question3, #question4 {
+  border-bottom: $line-height solid grey;
+  border-radius: 0px;
+  background-color: white;
+  &:hover {
+    color: red;
+    background-color: white;
+    border: none;
+  }
+}
+#contactus{
+    &:hover {
+    background-color: white;
+    color: red;
+    border: $line-height solid red;
+  }
+}
+
+
